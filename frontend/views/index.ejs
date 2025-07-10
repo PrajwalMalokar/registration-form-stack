@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Form</title>
+</head>
+<body>
+    <h2>Registration form</h2>
+    <form action="/submit" method="post">
+        <label>Name: <input type="text" name="name" required></label>
+        <label>Email: <input type="email" name="email" required></label>
+        <label>Age: <input type="number" name="age" required></label>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
